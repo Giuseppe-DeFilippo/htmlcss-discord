@@ -22,11 +22,14 @@ header{
     margin-left: 1em;
     margin-right: 1em;
 }
-#button, #mac {
+.button, .mac {
     padding: 1em;
     background-color: white;
     border-radius: 17px;
     border: none;
+}
+.button:hover{
+background-color: #255EE9;
 }
 #wallpaper{
     background-image: url(../img/jumbo.png);
@@ -43,6 +46,9 @@ color: white;
 padding: 1em;
 border-radius: 17px;
 border: none;
+}
+.button-browser:hover{
+    background-color:var(--color-blu);
 }
 .font-size{
     font-size: large;
@@ -156,6 +162,18 @@ border-radius: 17px;
 border: none;
 margin-bottom: 100px;
 }
+.button-color2{
+    background-color: var(--color-button);
+    
+color: white;
+padding: 1em;
+border-radius: 17px;
+border: none;
+margin-bottom: 100px;
+}
+.button-color:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
+}
 .color-blu{
     color: var(--color-button);
 }
@@ -197,12 +215,6 @@ padding-left: 15px;
     justify-content: space-between;
     
 }
-
-/*.padding-button{
-margin-top: 80px;
-}
-*/
-
 .margin-button{
 margin-top: 75px ;
 }
@@ -217,3 +229,8 @@ margin-top: 75px ;
 .margin-right{
 margin-right: 105px;
 }
+
+
+
+
+    
