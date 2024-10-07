@@ -53,9 +53,7 @@ border: none;
 .color-white{
     color: white;
 }
-/*.debug{
-    border: 1px solid red;
-}*/
+
 .scritte{
     font-size: 40px;
 }
@@ -190,4 +188,20 @@ padding-right: 200px;
 }
 .padding-left-li{
 padding-left: 15px;
+}
+.space-between{
+    justify-content: space-between;
+    
+}
+
+/*.padding-button{
+margin-top: 80px;
+}
+*/
+
+.margin-button{
+margin-top: 75px ;
+}
+.border{
+    border-top: solid red;
 }
