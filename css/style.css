@@ -183,9 +183,11 @@ font-size: 30px;
 padding-left: 50px;
 }
 .loghi{
-padding-right: 248px;
+padding-right: 200px;
 }
 .padding-loghi{
  margin-top: 12px;
 }
-
+.padding-left-li{
+padding-left: 15px;
+}
