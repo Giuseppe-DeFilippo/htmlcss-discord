@@ -3,6 +3,7 @@
     --color-grey:#F5F5F5;
     --color-footer:#23272A;
     --color-button:#7289DA;
+    --color-end:#404B6C;
 }
 *{
     margin: 0;
@@ -203,5 +204,13 @@ margin-top: 80px;
 margin-top: 75px ;
 }
 .border{
-    border-top: solid red;
+    margin-top: 30px;
+    border-top: solid var(--color-end);
+}
+.padding-button-footer{
+    margin-left:195px;
+
+}
+.margin-right{
+margin-right: 105px;
 }
