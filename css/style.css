@@ -234,7 +234,11 @@ margin-top: 75px ;
 .margin-right{
 margin-right: 105px;
 }
-
+select{
+    background-color: #23272A;
+    color: white;
+    border-style: none;
+}
 
 
 
